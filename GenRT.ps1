@@ -1,3 +1,4 @@
+New-Item -Path 'C:\RC18\ntlm\' -ItemType Directory
 New-Item -Path 'C:\RC18\ntlm\rtc' -ItemType Directory
 Copy-Item -Path 'C:\RC18\rt2rtc.exe' -Destination 'C:\RC18\ntlm'
 	for ( $i = 0; $i -le 32; $i=$i+8)
